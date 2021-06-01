@@ -1,0 +1,39 @@
+
+/* img要素テスト */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+/* サイト全体の幅を決める */
+.site-width{
+    width: 1080px;
+    margin: 0 auto;
+    border-right: dotted #dadada 2px;
+    border-left: dotted #dadada 2px;
+}
+
+
+.img-wrap{
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
+
+.inner-img{
+    width: 400px;
+}
+
+img{
+    width: 300px;
+}
+
+.image{
+    width: 300px;
+}

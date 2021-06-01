@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>プロフィール編集</title>
+</head>
+<body>
+    <!-- メインヘッダー -->
+    <header class="main-header">
+        <div class="outer-g-nav">
+            <h1 class="logo"><img src="" alt="">logo</h1>
+            <nav class="g-nav">
+                <ul class="g-nav-list">
+                    <li class="g-nav-item">トップページ</li>
+                    <li class="g-nav-item">マイページ</li>
+                    <li class="g-nav-item">ログアウト</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <!-- サブヘッダー -->
+    <header class="sub-header">
+        <div class="site-width outer-sub-header">
+            <ul class="action-nav-list-left">
+                <li class="action-nav-btn">写真を投稿する</li>
+            </ul>
+            <ul class="action-nav-list-right">
+                <li class="action-nav-btn">プロフィール編集</li>
+                <li class="action-nav-btn">パスワード変更</li>
+                <li class="action-nav-btn">退会</li>
+            </ul>
+        </div>
+    </header>
+    <!-- メインコンテンツ -->
+    <main>
+        <div class="site-width prof-edit">
+            <h2 class="section-title">写真投稿</h2>
+            <form action="" class="prof-form">
+                <div class="img-outer border">
+                    <!-- 写真を選択 -->
+                    <div class="img-wrap">
+                        <input type="hidden" name="MAX_FILE_SIZE" value="3145278">
+                        <input type="file" name="pic">
+                        <img src="images/16_9.JPG" alt="">
+                    </div>
+                </div>
+
+                <label for="" class="tag">タイトル</label>
+                <input type="text" name="title" class="regist-photo-list">
+                <label for="" class="tag">写真ジャンル</label>
+                <select name="" class="regist-photo-list">
+                    <option value=''>こここ</option>
+                </select>
+                <label for="" class="tag">使用レンズ</label>
+                <select name="" class="regist-photo-list">
+                    <option value=''>こおこおお</option>
+                </select>
+                <label for="" class="tag">フイルムシミュレーション</label>
+                <select name="" class="regist-photo-list">
+                    <option value=''>こおこおお</option>
+                </select>
+                <label for="" class="tag">コメント</label>
+                <textarea name="" id="" cols="30" rows="10" class="regist-textare"></textarea>
+                <div class="regist-input"><input type="submit" value="投稿"></div>
+            </form>
+
+        </div>
+    </main>
+    <!-- フッター -->
+    <footer class="footer">
+        Copyright  Fujiの病  .All Rights Reserved.
+    </footer>
+</body>
+</html>
