@@ -64036,3 +64036,3923 @@ PDOStatement::errorInfo():
 [02-Jun-2021 02:23:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622568208
 [02-Jun-2021 02:23:28 Asia/Tokyo] デバッグ：未ログインユーザーです。
 [02-Jun-2021 02:23:28 Asia/Tokyo] デバッグ：画面表示処理終了
+[02-Jun-2021 02:36:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:36:21 Asia/Tokyo] デバッグ：ログイン画面表示
+[02-Jun-2021 02:36:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:36:21 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:36:21 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:36:21 Asia/Tokyo] デバッグ：セッションID：u8elu4e5g3mh4k5om7k8210ak2
+[02-Jun-2021 02:36:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Jun-2021 02:36:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622568981
+[02-Jun-2021 02:36:21 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[02-Jun-2021 02:36:21 Asia/Tokyo] デバッグ：画面表示処理終了
+[02-Jun-2021 02:36:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:36:28 Asia/Tokyo] デバッグ：ログイン画面表示
+[02-Jun-2021 02:36:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:36:28 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:36:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:36:28 Asia/Tokyo] デバッグ：セッションID：dd5pbbf1fe30ckmvks0amj1ia2
+[02-Jun-2021 02:36:28 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Jun-2021 02:36:28 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622568988
+[02-Jun-2021 02:36:28 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[02-Jun-2021 02:36:28 Asia/Tokyo] デバッグ：バリデーションOK
+[02-Jun-2021 02:36:28 Asia/Tokyo] デバッグ：stmtの中身：PDOStatement Object
+(
+    [queryString] => SELECT password,id FROM users WHERE email = :email AND delete_flg = 0
+)
+
+[02-Jun-2021 02:36:28 Asia/Tokyo] デバッグ：1
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：パスワード一致
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：ログイン保持はしません
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：セッションの中身：Array
+(
+    [login_date] => 1622568989
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：画面表示処理終了
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：マイページ画面表示
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：セッションID：7r1hb1bo0c6a1v7qe08hl6b7c2
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622568989
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622568989
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622572589
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/mypage.php
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：ユーザーの投稿写真一覧：Array
+(
+)
+
+[02-Jun-2021 02:36:29 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:43:50 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:43:50 Asia/Tokyo] デバッグ：マイページ画面表示
+[02-Jun-2021 02:43:50 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:43:50 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:43:50 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:43:50 Asia/Tokyo] デバッグ：セッションID：7d4jlq1fmvd74f73moof64s0rc
+[02-Jun-2021 02:43:50 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622568989
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:43:50 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569430
+[02-Jun-2021 02:43:50 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622572589
+[02-Jun-2021 02:43:50 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:43:50 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:43:50 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/mypage.php
+[02-Jun-2021 02:43:50 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:43:50 Asia/Tokyo] デバッグ：ユーザーの投稿写真一覧：Array
+(
+)
+
+[02-Jun-2021 02:43:50 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:44:22 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:44:22 Asia/Tokyo] デバッグ：マイページ画面表示
+[02-Jun-2021 02:44:22 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:44:22 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:44:22 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:44:22 Asia/Tokyo] デバッグ：セッションID：pepvrv7d0iblujhui8abossjtp
+[02-Jun-2021 02:44:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569430
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:44:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569462
+[02-Jun-2021 02:44:22 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573030
+[02-Jun-2021 02:44:22 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:44:22 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:44:22 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/mypage.php
+[02-Jun-2021 02:44:22 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:44:22 Asia/Tokyo] デバッグ：ユーザーの投稿写真一覧：Array
+(
+)
+
+[02-Jun-2021 02:44:22 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:44:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:44:30 Asia/Tokyo] デバッグ：マイページ画面表示
+[02-Jun-2021 02:44:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:44:30 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:44:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:44:30 Asia/Tokyo] デバッグ：セッションID：m72dp5uue5cvb17ru9goqgtf5q
+[02-Jun-2021 02:44:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569462
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:44:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569470
+[02-Jun-2021 02:44:30 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573062
+[02-Jun-2021 02:44:30 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:44:30 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:44:30 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/mypage.php
+[02-Jun-2021 02:44:30 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:44:30 Asia/Tokyo] デバッグ：ユーザーの投稿写真一覧：Array
+(
+)
+
+[02-Jun-2021 02:44:30 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:44:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:44:39 Asia/Tokyo] デバッグ：マイページ画面表示
+[02-Jun-2021 02:44:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:44:39 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:44:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:44:39 Asia/Tokyo] デバッグ：セッションID：0lf92q2odetq4u3cbu2c2vi06l
+[02-Jun-2021 02:44:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569470
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:44:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569479
+[02-Jun-2021 02:44:39 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573070
+[02-Jun-2021 02:44:39 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:44:39 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:44:39 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/mypage.php
+[02-Jun-2021 02:44:39 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:44:39 Asia/Tokyo] デバッグ：ユーザーの投稿写真一覧：Array
+(
+)
+
+[02-Jun-2021 02:44:39 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：ログイン画面表示
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：セッションID：unap0jr28vqij9ip7h9j1gffhq
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569479
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569645
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573079
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/login.php
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：マイページへ遷移します
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：画面表示処理終了
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：マイページ画面表示
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：セッションID：k3qsllnbpl8mbr9n1mrghals0c
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569645
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569645
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573245
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/mypage.php
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：ユーザーの投稿写真一覧：Array
+(
+)
+
+[02-Jun-2021 02:47:25 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：ログアウト処理開始
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：セッションの中身：Array
+(
+    [login_date] => 1622569645
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：セッションの中身：Array
+(
+)
+
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：セッションの中身：Array
+(
+)
+
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：ログアウト完了
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：ログイン画面表示
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：セッションID：auij7kbgnuqag49j0h04q6ccbf
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569657
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[02-Jun-2021 02:47:37 Asia/Tokyo] デバッグ：画面表示処理終了
+[02-Jun-2021 02:47:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:47:38 Asia/Tokyo] デバッグ：ログイン画面表示
+[02-Jun-2021 02:47:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:47:38 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:47:38 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:47:38 Asia/Tokyo] デバッグ：セッションID：jooau5e5pdo8t5ot9ieol3n2n1
+[02-Jun-2021 02:47:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Jun-2021 02:47:38 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569658
+[02-Jun-2021 02:47:38 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[02-Jun-2021 02:47:38 Asia/Tokyo] デバッグ：画面表示処理終了
+[02-Jun-2021 02:47:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:47:39 Asia/Tokyo] デバッグ：新規登録画面表示
+[02-Jun-2021 02:47:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:47:39 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:47:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:47:39 Asia/Tokyo] デバッグ：セッションID：0dvdaahu063ib7nrofp42a1m7r
+[02-Jun-2021 02:47:39 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Jun-2021 02:47:39 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569659
+[02-Jun-2021 02:47:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:47:40 Asia/Tokyo] デバッグ：ログイン画面表示
+[02-Jun-2021 02:47:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:47:40 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:47:40 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:47:40 Asia/Tokyo] デバッグ：セッションID：tf9omb6ihetf6231l69ef73han
+[02-Jun-2021 02:47:40 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Jun-2021 02:47:40 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569660
+[02-Jun-2021 02:47:40 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[02-Jun-2021 02:47:40 Asia/Tokyo] デバッグ：画面表示処理終了
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：ログイン画面表示
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：セッションID：56u19l41m87544plvf9vukl8cf
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569698
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：バリデーションOK
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：stmtの中身：PDOStatement Object
+(
+    [queryString] => SELECT password,id FROM users WHERE email = :email AND delete_flg = 0
+)
+
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：1
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：パスワード一致
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：ログイン保持はしません
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：セッションの中身：Array
+(
+    [login_date] => 1622569698
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：画面表示処理終了
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：マイページ画面表示
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：セッションID：onkggsceq00kmt08bsu59o3nab
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569698
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569698
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573298
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/mypage.php
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：ユーザーの投稿写真一覧：Array
+(
+)
+
+[02-Jun-2021 02:48:18 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：トップページ
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：セッションID：2pr3dcjqmqe60ds5dht7i6pul5
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569698
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569702
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573298
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/top.php
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：$_GETの中身：Array
+(
+)
+
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：カレントpege1
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：カレント0
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：写真情報を取得します。
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：sqlの中身0：SELECT id FROM posts
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：whereの中身0：
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：whereの中身0.5：
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：whereの中身1：
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：sqlの中身1：SELECT id FROM posts
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：トータル件数：118
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：トータルページ数：4
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：sqlの中身2：SELECT * FROM posts
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：whereの中身2：
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：whereの中身2.5：
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：whereの中身3：
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：sqlの中身3：SELECT * FROM posts
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：sqlの中身4：SELECT * FROM posts LIMIT 30 OFFSET 0
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：実行したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM posts LIMIT 30 OFFSET 0
+)
+
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：全データ数：118
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：トータルで必要なページ数：4
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：写真データ：Array
+(
+    [0] => Array
+        (
+            [id] => 94
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [1] => Array
+        (
+            [id] => 95
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [2] => Array
+        (
+            [id] => 96
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [3] => Array
+        (
+            [id] => 97
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [4] => Array
+        (
+            [id] => 98
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [5] => Array
+        (
+            [id] => 99
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [6] => Array
+        (
+            [id] => 100
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [7] => Array
+        (
+            [id] => 101
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [8] => Array
+        (
+            [id] => 102
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [9] => Array
+        (
+            [id] => 103
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [10] => Array
+        (
+            [id] => 104
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [11] => Array
+        (
+            [id] => 105
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [12] => Array
+        (
+            [id] => 106
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [13] => Array
+        (
+            [id] => 107
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [14] => Array
+        (
+            [id] => 108
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [15] => Array
+        (
+            [id] => 109
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [16] => Array
+        (
+            [id] => 110
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [17] => Array
+        (
+            [id] => 111
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [18] => Array
+        (
+            [id] => 112
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [19] => Array
+        (
+            [id] => 113
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [20] => Array
+        (
+            [id] => 114
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [21] => Array
+        (
+            [id] => 115
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [22] => Array
+        (
+            [id] => 116
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [23] => Array
+        (
+            [id] => 117
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [24] => Array
+        (
+            [id] => 118
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [25] => Array
+        (
+            [id] => 119
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [26] => Array
+        (
+            [id] => 120
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [27] => Array
+        (
+            [id] => 121
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [28] => Array
+        (
+            [id] => 122
+            [user_id] => 29
+            [pic] => uploads/6f3099d100d63d62e5e985a1425e23bef6a1c4b5.jpeg
+            [title] => ハーフバースデー
+            [lens_id] => 9
+            [situation_id] => 4
+            [film_id] => 3
+            [comment] => 春瑠ちゃんのハーフバースデーでした。
+            [create_at] => 2021-02-13 21:02:29
+            [update_at] => 2021-02-13 21:35:29
+            [delete_flg] => 0
+        )
+
+    [29] => Array
+        (
+            [id] => 123
+            [user_id] => 29
+            [pic] => uploads/6f3099d100d63d62e5e985a1425e23bef6a1c4b5.jpeg
+            [title] => ハーフバースデー
+            [lens_id] => 9
+            [situation_id] => 4
+            [film_id] => 3
+            [comment] => 春瑠ちゃんのハーフバースデーでした。
+            [create_at] => 2021-02-13 21:02:29
+            [update_at] => 2021-02-13 21:35:29
+            [delete_flg] => 0
+        )
+
+)
+
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：レンズ情報取得クエリ成功
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：シチュエーション情報取得クエリ成功
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：フィルムシミュレーション情報取得クエリ成功
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：現在ページ1：1
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：dbformdata:
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：現在ページ2：1
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：現在ページ7：1
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：現在ページ1
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：最小ページ1
+[02-Jun-2021 02:48:22 Asia/Tokyo] デバッグ：最大ページ4
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：写真詳細ページ
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：セッションID：mpjgn8pfibutfgt11q9qb8jfaf
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569702
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569704
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573302
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：p_idのん:96
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：写真情報を取得します
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：写真ID：96
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：結合したdataの中身：Array
+(
+    [:p_id] => 96
+)
+
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：結合したstmtの中身：PDOStatement Object
+(
+    [queryString] => SELECT p.id as post_id, p.pic, p.title, p.comment, p.create_at, p.update_at, u.id as user_id, u.username,
+        u.pic as user_icon, s.name as situation_name, l.name as lens_name, f.name as film_name
+        FROM posts as p
+        LEFT JOIN
+        users as u
+        ON
+        p.user_id = u.id
+        LEFT JOIN
+        situations as s
+        ON
+        p.situation_id = s.id
+        LEFT JOIN
+        lenses as l
+        ON
+        p.lens_id = l.id
+        LEFT JOIN
+        films as f
+        ON
+        p.film_id = f.id
+        WHERE p.id = :p_id AND p.delete_flg = 0 AND u.delete_flg = 0
+)
+
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：ビューデータ：Array
+(
+    [post_id] => 96
+    [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+    [title] => 富士のカメラは最高ですよーー！！
+    [comment] => 富士のカメラ
+    [create_at] => 2021-02-13 21:02:32
+    [update_at] => 2021-02-13 21:33:32
+    [user_id] => 29
+    [username] => かんばら
+    [user_icon] => 
+    [situation_name] => 物・雑貨
+    [lens_name] => XF56mmF1.2 R
+    [film_name] => PROVIA／スタンダード
+)
+
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：取得したDBデータ($viewDataの中身)：Array
+(
+    [post_id] => 96
+    [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+    [title] => 富士のカメラは最高ですよーー！！
+    [comment] => 富士のカメラ
+    [create_at] => 2021-02-13 21:02:32
+    [update_at] => 2021-02-13 21:33:32
+    [user_id] => 29
+    [username] => かんばら
+    [user_icon] => 
+    [situation_name] => 物・雑貨
+    [lens_name] => XF56mmF1.2 R
+    [film_name] => PROVIA／スタンダード
+)
+
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：お気に入り情報があるかチェック
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：ユーザーID：48
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：写真ID：96
+[02-Jun-2021 02:48:24 Asia/Tokyo] デバッグ：お気に入りではありません。
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：写真詳細ページ
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：セッションID：f6ald3jnpvs4l05i5m5j1si728
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569702
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569707
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573302
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：p_idのん:96
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：写真情報を取得します
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：写真ID：96
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：結合したdataの中身：Array
+(
+    [:p_id] => 96
+)
+
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：結合したstmtの中身：PDOStatement Object
+(
+    [queryString] => SELECT p.id as post_id, p.pic, p.title, p.comment, p.create_at, p.update_at, u.id as user_id, u.username,
+        u.pic as user_icon, s.name as situation_name, l.name as lens_name, f.name as film_name
+        FROM posts as p
+        LEFT JOIN
+        users as u
+        ON
+        p.user_id = u.id
+        LEFT JOIN
+        situations as s
+        ON
+        p.situation_id = s.id
+        LEFT JOIN
+        lenses as l
+        ON
+        p.lens_id = l.id
+        LEFT JOIN
+        films as f
+        ON
+        p.film_id = f.id
+        WHERE p.id = :p_id AND p.delete_flg = 0 AND u.delete_flg = 0
+)
+
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：ビューデータ：Array
+(
+    [post_id] => 96
+    [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+    [title] => 富士のカメラは最高ですよーー！！
+    [comment] => 富士のカメラ
+    [create_at] => 2021-02-13 21:02:32
+    [update_at] => 2021-02-13 21:33:32
+    [user_id] => 29
+    [username] => かんばら
+    [user_icon] => 
+    [situation_name] => 物・雑貨
+    [lens_name] => XF56mmF1.2 R
+    [film_name] => PROVIA／スタンダード
+)
+
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：取得したDBデータ($viewDataの中身)：Array
+(
+    [post_id] => 96
+    [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+    [title] => 富士のカメラは最高ですよーー！！
+    [comment] => 富士のカメラ
+    [create_at] => 2021-02-13 21:02:32
+    [update_at] => 2021-02-13 21:33:32
+    [user_id] => 29
+    [username] => かんばら
+    [user_icon] => 
+    [situation_name] => 物・雑貨
+    [lens_name] => XF56mmF1.2 R
+    [film_name] => PROVIA／スタンダード
+)
+
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：コメントするがクリックされました
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/photoDetail.php
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：$resultの中身:
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：初めての作成になります。
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：お気に入り情報があるかチェック
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：ユーザーID：48
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：写真ID：96
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：お気に入りではありません。
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：掲示板ページ
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：セッションID：87gsfjl1mumn88fpurj4698nuk
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569707
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569707
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573307
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：ここに入ればok
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：ビュー：Array
+(
+    [0] => Array
+        (
+            [comment_user] => 
+            [send_date] => 
+            [msg] => 
+            [bord_id] => 
+            [post_id] => 96
+            [post_user] => 29
+            [create_at] => 2021-06-02 02:48:27
+            [username] => 
+            [pic] => 
+        )
+
+)
+
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：写真情報を取得します
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：写真ID：96
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：結合したdataの中身：Array
+(
+    [:p_id] => 96
+)
+
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：結合したstmtの中身：PDOStatement Object
+(
+    [queryString] => SELECT p.id as post_id, p.pic, p.title, p.comment, p.create_at, p.update_at, u.id as user_id, u.username,
+        u.pic as user_icon, s.name as situation_name, l.name as lens_name, f.name as film_name
+        FROM posts as p
+        LEFT JOIN
+        users as u
+        ON
+        p.user_id = u.id
+        LEFT JOIN
+        situations as s
+        ON
+        p.situation_id = s.id
+        LEFT JOIN
+        lenses as l
+        ON
+        p.lens_id = l.id
+        LEFT JOIN
+        films as f
+        ON
+        p.film_id = f.id
+        WHERE p.id = :p_id AND p.delete_flg = 0 AND u.delete_flg = 0
+)
+
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：$photoInfoの中身：Array
+(
+    [post_id] => 96
+    [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+    [title] => 富士のカメラは最高ですよーー！！
+    [comment] => 富士のカメラ
+    [create_at] => 2021-02-13 21:02:32
+    [update_at] => 2021-02-13 21:33:32
+    [user_id] => 29
+    [username] => かんばら
+    [user_icon] => 
+    [situation_name] => 物・雑貨
+    [lens_name] => XF56mmF1.2 R
+    [film_name] => PROVIA／スタンダード
+)
+
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：ユーザー情報取得成功
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：$postUserInfoの中身：Array
+(
+    [id] => 29
+    [username] => かんばら
+    [email] => garcons0629@gmail.com
+    [password] => $2y$10$Gxw8yR6PL2wsgIyhNSprauk/UBW5l7hzvRTLT3cGrm3fu/WT5DBsW
+    [sex] => 1
+    [age] => 28
+    [prefecture_id] => 1
+    [tel] => 
+    [pic] => 
+    [login_time] => 2021-01-28 22:01:34
+    [create_at] => 2021-01-28 22:01:34
+    [update_at] => 2021-02-06 15:20:32
+    [delete_flg] => 0
+)
+
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：commentUserId中身：Array
+(
+    [0] => 
+)
+
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：otherUserIdの中身：Array
+(
+    [0] => 
+)
+
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：ユーザー情報取得成功
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：$otherUserInfoの中身：Array
+(
+    [0] => 
+)
+
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：viewdataコメント：29
+[02-Jun-2021 02:48:27 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：写真詳細ページ
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：セッションID：qh9mstoilnni1aa43no3bh1tf0
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569707
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569710
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573307
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：p_idのん:96
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：写真情報を取得します
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：写真ID：96
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：結合したdataの中身：Array
+(
+    [:p_id] => 96
+)
+
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：結合したstmtの中身：PDOStatement Object
+(
+    [queryString] => SELECT p.id as post_id, p.pic, p.title, p.comment, p.create_at, p.update_at, u.id as user_id, u.username,
+        u.pic as user_icon, s.name as situation_name, l.name as lens_name, f.name as film_name
+        FROM posts as p
+        LEFT JOIN
+        users as u
+        ON
+        p.user_id = u.id
+        LEFT JOIN
+        situations as s
+        ON
+        p.situation_id = s.id
+        LEFT JOIN
+        lenses as l
+        ON
+        p.lens_id = l.id
+        LEFT JOIN
+        films as f
+        ON
+        p.film_id = f.id
+        WHERE p.id = :p_id AND p.delete_flg = 0 AND u.delete_flg = 0
+)
+
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：ビューデータ：Array
+(
+    [post_id] => 96
+    [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+    [title] => 富士のカメラは最高ですよーー！！
+    [comment] => 富士のカメラ
+    [create_at] => 2021-02-13 21:02:32
+    [update_at] => 2021-02-13 21:33:32
+    [user_id] => 29
+    [username] => かんばら
+    [user_icon] => 
+    [situation_name] => 物・雑貨
+    [lens_name] => XF56mmF1.2 R
+    [film_name] => PROVIA／スタンダード
+)
+
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：取得したDBデータ($viewDataの中身)：Array
+(
+    [post_id] => 96
+    [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+    [title] => 富士のカメラは最高ですよーー！！
+    [comment] => 富士のカメラ
+    [create_at] => 2021-02-13 21:02:32
+    [update_at] => 2021-02-13 21:33:32
+    [user_id] => 29
+    [username] => かんばら
+    [user_icon] => 
+    [situation_name] => 物・雑貨
+    [lens_name] => XF56mmF1.2 R
+    [film_name] => PROVIA／スタンダード
+)
+
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：お気に入り情報があるかチェック
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：ユーザーID：48
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：写真ID：96
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：お気に入りではありません。
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：トップページ
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：セッションID：i0aov3dj64j4dpjesc7eo8bdcq
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569707
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569710
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573307
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/top.php
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：$_GETの中身：Array
+(
+)
+
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：カレントpege1
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：カレント0
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：写真情報を取得します。
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：sqlの中身0：SELECT id FROM posts
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：whereの中身0：
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：whereの中身0.5：
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：whereの中身1：
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：sqlの中身1：SELECT id FROM posts
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：トータル件数：118
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：トータルページ数：4
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：sqlの中身2：SELECT * FROM posts
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：whereの中身2：
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：whereの中身2.5：
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：whereの中身3：
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：sqlの中身3：SELECT * FROM posts
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：sqlの中身4：SELECT * FROM posts LIMIT 30 OFFSET 0
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：実行したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM posts LIMIT 30 OFFSET 0
+)
+
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：全データ数：118
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：トータルで必要なページ数：4
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：写真データ：Array
+(
+    [0] => Array
+        (
+            [id] => 94
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [1] => Array
+        (
+            [id] => 95
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [2] => Array
+        (
+            [id] => 96
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [3] => Array
+        (
+            [id] => 97
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [4] => Array
+        (
+            [id] => 98
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [5] => Array
+        (
+            [id] => 99
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [6] => Array
+        (
+            [id] => 100
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [7] => Array
+        (
+            [id] => 101
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [8] => Array
+        (
+            [id] => 102
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [9] => Array
+        (
+            [id] => 103
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [10] => Array
+        (
+            [id] => 104
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [11] => Array
+        (
+            [id] => 105
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [12] => Array
+        (
+            [id] => 106
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [13] => Array
+        (
+            [id] => 107
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [14] => Array
+        (
+            [id] => 108
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [15] => Array
+        (
+            [id] => 109
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [16] => Array
+        (
+            [id] => 110
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [17] => Array
+        (
+            [id] => 111
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [18] => Array
+        (
+            [id] => 112
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [19] => Array
+        (
+            [id] => 113
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [20] => Array
+        (
+            [id] => 114
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [21] => Array
+        (
+            [id] => 115
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [22] => Array
+        (
+            [id] => 116
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [23] => Array
+        (
+            [id] => 117
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [24] => Array
+        (
+            [id] => 118
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [25] => Array
+        (
+            [id] => 119
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [26] => Array
+        (
+            [id] => 120
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [27] => Array
+        (
+            [id] => 121
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [28] => Array
+        (
+            [id] => 122
+            [user_id] => 29
+            [pic] => uploads/6f3099d100d63d62e5e985a1425e23bef6a1c4b5.jpeg
+            [title] => ハーフバースデー
+            [lens_id] => 9
+            [situation_id] => 4
+            [film_id] => 3
+            [comment] => 春瑠ちゃんのハーフバースデーでした。
+            [create_at] => 2021-02-13 21:02:29
+            [update_at] => 2021-02-13 21:35:29
+            [delete_flg] => 0
+        )
+
+    [29] => Array
+        (
+            [id] => 123
+            [user_id] => 29
+            [pic] => uploads/6f3099d100d63d62e5e985a1425e23bef6a1c4b5.jpeg
+            [title] => ハーフバースデー
+            [lens_id] => 9
+            [situation_id] => 4
+            [film_id] => 3
+            [comment] => 春瑠ちゃんのハーフバースデーでした。
+            [create_at] => 2021-02-13 21:02:29
+            [update_at] => 2021-02-13 21:35:29
+            [delete_flg] => 0
+        )
+
+)
+
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：レンズ情報取得クエリ成功
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：シチュエーション情報取得クエリ成功
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：フィルムシミュレーション情報取得クエリ成功
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：現在ページ1：1
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：dbformdata:
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：現在ページ2：1
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：現在ページ7：1
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：現在ページ1
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：最小ページ1
+[02-Jun-2021 02:48:30 Asia/Tokyo] デバッグ：最大ページ4
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：ログアウト処理開始
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：セッションの中身：Array
+(
+    [login_date] => 1622569710
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：セッションの中身：Array
+(
+)
+
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：セッションの中身：Array
+(
+)
+
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：ログアウト完了
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：ログイン画面表示
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：セッションID：86g8l8137kavhjsfn5irkdkc9j
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569879
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[02-Jun-2021 02:51:19 Asia/Tokyo] デバッグ：画面表示処理終了
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：トップページ
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：セッションID：ivel5en58acc7p58n7usfadhcm
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569892
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：$_GETの中身：Array
+(
+)
+
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：カレントpege1
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：カレント0
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：写真情報を取得します。
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：sqlの中身0：SELECT id FROM posts
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：whereの中身0：
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：whereの中身0.5：
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：whereの中身1：
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：sqlの中身1：SELECT id FROM posts
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：トータル件数：118
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：トータルページ数：4
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：sqlの中身2：SELECT * FROM posts
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：whereの中身2：
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：whereの中身2.5：
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：whereの中身3：
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：sqlの中身3：SELECT * FROM posts
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：sqlの中身4：SELECT * FROM posts LIMIT 30 OFFSET 0
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：実行したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM posts LIMIT 30 OFFSET 0
+)
+
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：全データ数：118
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：トータルで必要なページ数：4
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：写真データ：Array
+(
+    [0] => Array
+        (
+            [id] => 94
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [1] => Array
+        (
+            [id] => 95
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [2] => Array
+        (
+            [id] => 96
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [3] => Array
+        (
+            [id] => 97
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [4] => Array
+        (
+            [id] => 98
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [5] => Array
+        (
+            [id] => 99
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [6] => Array
+        (
+            [id] => 100
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [7] => Array
+        (
+            [id] => 101
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [8] => Array
+        (
+            [id] => 102
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [9] => Array
+        (
+            [id] => 103
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [10] => Array
+        (
+            [id] => 104
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [11] => Array
+        (
+            [id] => 105
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [12] => Array
+        (
+            [id] => 106
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [13] => Array
+        (
+            [id] => 107
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [14] => Array
+        (
+            [id] => 108
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [15] => Array
+        (
+            [id] => 109
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [16] => Array
+        (
+            [id] => 110
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [17] => Array
+        (
+            [id] => 111
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [18] => Array
+        (
+            [id] => 112
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [19] => Array
+        (
+            [id] => 113
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [20] => Array
+        (
+            [id] => 114
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [21] => Array
+        (
+            [id] => 115
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [22] => Array
+        (
+            [id] => 116
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [23] => Array
+        (
+            [id] => 117
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [24] => Array
+        (
+            [id] => 118
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [25] => Array
+        (
+            [id] => 119
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [26] => Array
+        (
+            [id] => 120
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [27] => Array
+        (
+            [id] => 121
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [28] => Array
+        (
+            [id] => 122
+            [user_id] => 29
+            [pic] => uploads/6f3099d100d63d62e5e985a1425e23bef6a1c4b5.jpeg
+            [title] => ハーフバースデー
+            [lens_id] => 9
+            [situation_id] => 4
+            [film_id] => 3
+            [comment] => 春瑠ちゃんのハーフバースデーでした。
+            [create_at] => 2021-02-13 21:02:29
+            [update_at] => 2021-02-13 21:35:29
+            [delete_flg] => 0
+        )
+
+    [29] => Array
+        (
+            [id] => 123
+            [user_id] => 29
+            [pic] => uploads/6f3099d100d63d62e5e985a1425e23bef6a1c4b5.jpeg
+            [title] => ハーフバースデー
+            [lens_id] => 9
+            [situation_id] => 4
+            [film_id] => 3
+            [comment] => 春瑠ちゃんのハーフバースデーでした。
+            [create_at] => 2021-02-13 21:02:29
+            [update_at] => 2021-02-13 21:35:29
+            [delete_flg] => 0
+        )
+
+)
+
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：レンズ情報取得クエリ成功
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：シチュエーション情報取得クエリ成功
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：フィルムシミュレーション情報取得クエリ成功
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：現在ページ1：1
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：dbformdata:
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：現在ページ2：1
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：現在ページ7：1
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：現在ページ1
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：最小ページ1
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：最大ページ4
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：ログイン画面表示
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：セッションID：oarb6cidil15na8222sm3pvgmg
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569892
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[02-Jun-2021 02:51:32 Asia/Tokyo] デバッグ：画面表示処理終了
+[02-Jun-2021 02:51:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:51:40 Asia/Tokyo] デバッグ：新規登録画面表示
+[02-Jun-2021 02:51:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:51:40 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:51:40 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:51:40 Asia/Tokyo] デバッグ：セッションID：bav2m2764e7jl8cl7k31ab491v
+[02-Jun-2021 02:51:40 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Jun-2021 02:51:40 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569900
+[02-Jun-2021 02:51:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:51:42 Asia/Tokyo] デバッグ：ログイン画面表示
+[02-Jun-2021 02:51:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:51:42 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:51:42 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:51:42 Asia/Tokyo] デバッグ：セッションID：tg2r6p4vrmmmkej62h6svuqi13
+[02-Jun-2021 02:51:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Jun-2021 02:51:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569902
+[02-Jun-2021 02:51:42 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[02-Jun-2021 02:51:42 Asia/Tokyo] デバッグ：画面表示処理終了
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：ログイン画面表示
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：セッションID：4a2e2ikcdk6men3j446fdpnjak
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+)
+
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569909
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：バリデーションOK
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：stmtの中身：PDOStatement Object
+(
+    [queryString] => SELECT password,id FROM users WHERE email = :email AND delete_flg = 0
+)
+
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：1
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：パスワード一致
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：ログイン保持はしません
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：セッションの中身：Array
+(
+    [login_date] => 1622569909
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:51:49 Asia/Tokyo] デバッグ：画面表示処理終了
+[02-Jun-2021 02:52:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:52:21 Asia/Tokyo] デバッグ：マイページ画面表示
+[02-Jun-2021 02:52:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:52:21 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:52:21 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:52:21 Asia/Tokyo] デバッグ：セッションID：43btmtaprj7h733r3q5lv78mc5
+[02-Jun-2021 02:52:21 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569909
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:52:21 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569941
+[02-Jun-2021 02:52:21 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573509
+[02-Jun-2021 02:52:21 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:52:21 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:52:21 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/mypage.php
+[02-Jun-2021 02:52:21 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:52:21 Asia/Tokyo] デバッグ：ユーザーの投稿写真一覧：Array
+(
+)
+
+[02-Jun-2021 02:52:21 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:52:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:52:31 Asia/Tokyo] デバッグ：写真投稿ページ
+[02-Jun-2021 02:52:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:52:31 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:52:31 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:52:31 Asia/Tokyo] デバッグ：セッションID：d39ukvppr80eisjfgc53vhhrl9
+[02-Jun-2021 02:52:31 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569941
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:52:31 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569951
+[02-Jun-2021 02:52:31 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573541
+[02-Jun-2021 02:52:31 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:52:31 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:52:31 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/registPhoto.php
+[02-Jun-2021 02:52:31 Asia/Tokyo] デバッグ：レンズ情報取得クエリ成功
+[02-Jun-2021 02:52:31 Asia/Tokyo] デバッグ：シチュエーション情報取得クエリ成功
+[02-Jun-2021 02:52:31 Asia/Tokyo] デバッグ：フィルムシミュレーション情報取得クエリ成功
+[02-Jun-2021 02:52:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:52:33 Asia/Tokyo] デバッグ：<<<<<<<<<プロフィール編集>>>>>>>>>
+[02-Jun-2021 02:52:33 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」
+[02-Jun-2021 02:52:33 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:52:33 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:52:33 Asia/Tokyo] デバッグ：セッションID：uk89hpgr2o997fss1sfiq5btq9
+[02-Jun-2021 02:52:33 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569951
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:52:33 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569953
+[02-Jun-2021 02:52:33 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573551
+[02-Jun-2021 02:52:33 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:52:33 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:52:33 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/profEdit.php
+[02-Jun-2021 02:52:33 Asia/Tokyo] デバッグ：ユーザー情報取得成功
+[02-Jun-2021 02:52:33 Asia/Tokyo] デバッグ：$dbFormDataの中身：Array
+(
+    [id] => 48
+    [username] => a
+    [email] => a@a.com
+    [password] => $2y$10$Q8L/.paD0mIgBgGh6AAmHu0GlUUit6febVgINixS//OaBsjEyW.am
+    [sex] => 0
+    [age] => 
+    [prefecture_id] => 0
+    [tel] => 
+    [pic] => 
+    [login_time] => 2021-02-11 01:27:09
+    [create_at] => 2021-02-11 01:27:09
+    [update_at] => 2021-02-11 01:27:09
+    [delete_flg] => 0
+)
+
+[02-Jun-2021 02:52:33 Asia/Tokyo] デバッグ：セッション:Array
+(
+    [login_date] => 1622569953
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:52:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:52:38 Asia/Tokyo] デバッグ：<<<<<<<<<<<<<<<パスワード変更ページ>>>>>>>>>>>>>>>
+[02-Jun-2021 02:52:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:52:38 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:52:38 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:52:38 Asia/Tokyo] デバッグ：セッションID：586vpkcnoekob4v47rn7en15bd
+[02-Jun-2021 02:52:38 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569953
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:52:38 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569958
+[02-Jun-2021 02:52:38 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573553
+[02-Jun-2021 02:52:38 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:52:38 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:52:38 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/passEdit.php
+[02-Jun-2021 02:52:38 Asia/Tokyo] デバッグ：ユーザー情報取得成功
+[02-Jun-2021 02:52:38 Asia/Tokyo] デバッグ：userDataの中身：Array
+(
+    [id] => 48
+    [username] => a
+    [email] => a@a.com
+    [password] => $2y$10$Q8L/.paD0mIgBgGh6AAmHu0GlUUit6febVgINixS//OaBsjEyW.am
+    [sex] => 0
+    [age] => 
+    [prefecture_id] => 0
+    [tel] => 
+    [pic] => 
+    [login_time] => 2021-02-11 01:27:09
+    [create_at] => 2021-02-11 01:27:09
+    [update_at] => 2021-02-11 01:27:09
+    [delete_flg] => 0
+)
+
+[02-Jun-2021 02:52:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:52:42 Asia/Tokyo] デバッグ：<<<<<<<<<プロフィール編集>>>>>>>>>
+[02-Jun-2021 02:52:42 Asia/Tokyo] デバッグ：」」」」」」」」」」」」」」」」」」」
+[02-Jun-2021 02:52:42 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:52:42 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:52:42 Asia/Tokyo] デバッグ：セッションID：dauijtfkv00rs9u4l8tt2c9gg2
+[02-Jun-2021 02:52:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569958
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:52:42 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569962
+[02-Jun-2021 02:52:42 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573558
+[02-Jun-2021 02:52:42 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:52:42 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:52:42 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/profEdit.php
+[02-Jun-2021 02:52:42 Asia/Tokyo] デバッグ：ユーザー情報取得成功
+[02-Jun-2021 02:52:42 Asia/Tokyo] デバッグ：$dbFormDataの中身：Array
+(
+    [id] => 48
+    [username] => a
+    [email] => a@a.com
+    [password] => $2y$10$Q8L/.paD0mIgBgGh6AAmHu0GlUUit6febVgINixS//OaBsjEyW.am
+    [sex] => 0
+    [age] => 
+    [prefecture_id] => 0
+    [tel] => 
+    [pic] => 
+    [login_time] => 2021-02-11 01:27:09
+    [create_at] => 2021-02-11 01:27:09
+    [update_at] => 2021-02-11 01:27:09
+    [delete_flg] => 0
+)
+
+[02-Jun-2021 02:52:42 Asia/Tokyo] デバッグ：セッション:Array
+(
+    [login_date] => 1622569962
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：写真投稿ページ
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：セッションID：jtkor140avajeqn7fc3el9s10g
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569962
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569963
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573562
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/registPhoto.php
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：レンズ情報取得クエリ成功
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：シチュエーション情報取得クエリ成功
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：フィルムシミュレーション情報取得クエリ成功
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：マイページ画面表示
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：セッションID：gkq3s7sfvo99kj4q18bmou07bh
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569963
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569963
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573563
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/mypage.php
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：ユーザーの投稿写真一覧：Array
+(
+)
+
+[02-Jun-2021 02:52:43 Asia/Tokyo] デバッグ：あなたの投稿した全写真を取得できました。
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：トップページ
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：セッションID：dcvs278cu61jakjq981qbl5lsn
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569963
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569980
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573563
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/top.php
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：$_GETの中身：Array
+(
+)
+
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：カレントpege1
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：カレント0
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：写真情報を取得します。
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：sqlの中身0：SELECT id FROM posts
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：whereの中身0：
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：whereの中身0.5：
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：whereの中身1：
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：sqlの中身1：SELECT id FROM posts
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：トータル件数：118
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：トータルページ数：4
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：sqlの中身2：SELECT * FROM posts
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：whereの中身2：
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：whereの中身2.5：
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：whereの中身3：
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：sqlの中身3：SELECT * FROM posts
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：sqlの中身4：SELECT * FROM posts LIMIT 30 OFFSET 0
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：実行したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM posts LIMIT 30 OFFSET 0
+)
+
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：全データ数：118
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：トータルで必要なページ数：4
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：写真データ：Array
+(
+    [0] => Array
+        (
+            [id] => 94
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [1] => Array
+        (
+            [id] => 95
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [2] => Array
+        (
+            [id] => 96
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [3] => Array
+        (
+            [id] => 97
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [4] => Array
+        (
+            [id] => 98
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [5] => Array
+        (
+            [id] => 99
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [6] => Array
+        (
+            [id] => 100
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [7] => Array
+        (
+            [id] => 101
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [8] => Array
+        (
+            [id] => 102
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [9] => Array
+        (
+            [id] => 103
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [10] => Array
+        (
+            [id] => 104
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [11] => Array
+        (
+            [id] => 105
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [12] => Array
+        (
+            [id] => 106
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [13] => Array
+        (
+            [id] => 107
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [14] => Array
+        (
+            [id] => 108
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [15] => Array
+        (
+            [id] => 109
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [16] => Array
+        (
+            [id] => 110
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [17] => Array
+        (
+            [id] => 111
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [18] => Array
+        (
+            [id] => 112
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [19] => Array
+        (
+            [id] => 113
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [20] => Array
+        (
+            [id] => 114
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [21] => Array
+        (
+            [id] => 115
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [22] => Array
+        (
+            [id] => 116
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [23] => Array
+        (
+            [id] => 117
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [24] => Array
+        (
+            [id] => 118
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [25] => Array
+        (
+            [id] => 119
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [26] => Array
+        (
+            [id] => 120
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [27] => Array
+        (
+            [id] => 121
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [28] => Array
+        (
+            [id] => 122
+            [user_id] => 29
+            [pic] => uploads/6f3099d100d63d62e5e985a1425e23bef6a1c4b5.jpeg
+            [title] => ハーフバースデー
+            [lens_id] => 9
+            [situation_id] => 4
+            [film_id] => 3
+            [comment] => 春瑠ちゃんのハーフバースデーでした。
+            [create_at] => 2021-02-13 21:02:29
+            [update_at] => 2021-02-13 21:35:29
+            [delete_flg] => 0
+        )
+
+    [29] => Array
+        (
+            [id] => 123
+            [user_id] => 29
+            [pic] => uploads/6f3099d100d63d62e5e985a1425e23bef6a1c4b5.jpeg
+            [title] => ハーフバースデー
+            [lens_id] => 9
+            [situation_id] => 4
+            [film_id] => 3
+            [comment] => 春瑠ちゃんのハーフバースデーでした。
+            [create_at] => 2021-02-13 21:02:29
+            [update_at] => 2021-02-13 21:35:29
+            [delete_flg] => 0
+        )
+
+)
+
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：レンズ情報取得クエリ成功
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：シチュエーション情報取得クエリ成功
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：フィルムシミュレーション情報取得クエリ成功
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：現在ページ1：1
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：dbformdata:
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：現在ページ2：1
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：現在ページ7：1
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：現在ページ1
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：最小ページ1
+[02-Jun-2021 02:53:00 Asia/Tokyo] デバッグ：最大ページ4
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：写真詳細ページ
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：セッションID：gb1qk88qf02lpcvc5ss0uknae3
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569980
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569986
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573580
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：p_idのん:94
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：写真情報を取得します
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：写真ID：94
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：結合したdataの中身：Array
+(
+    [:p_id] => 94
+)
+
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：結合したstmtの中身：PDOStatement Object
+(
+    [queryString] => SELECT p.id as post_id, p.pic, p.title, p.comment, p.create_at, p.update_at, u.id as user_id, u.username,
+        u.pic as user_icon, s.name as situation_name, l.name as lens_name, f.name as film_name
+        FROM posts as p
+        LEFT JOIN
+        users as u
+        ON
+        p.user_id = u.id
+        LEFT JOIN
+        situations as s
+        ON
+        p.situation_id = s.id
+        LEFT JOIN
+        lenses as l
+        ON
+        p.lens_id = l.id
+        LEFT JOIN
+        films as f
+        ON
+        p.film_id = f.id
+        WHERE p.id = :p_id AND p.delete_flg = 0 AND u.delete_flg = 0
+)
+
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：ビューデータ：Array
+(
+    [post_id] => 94
+    [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+    [title] => 富士のカメラは最高ですよーー！！
+    [comment] => 富士のカメラ
+    [create_at] => 2021-02-13 21:02:32
+    [update_at] => 2021-02-13 21:33:32
+    [user_id] => 29
+    [username] => かんばら
+    [user_icon] => 
+    [situation_name] => 物・雑貨
+    [lens_name] => XF56mmF1.2 R
+    [film_name] => PROVIA／スタンダード
+)
+
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：取得したDBデータ($viewDataの中身)：Array
+(
+    [post_id] => 94
+    [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+    [title] => 富士のカメラは最高ですよーー！！
+    [comment] => 富士のカメラ
+    [create_at] => 2021-02-13 21:02:32
+    [update_at] => 2021-02-13 21:33:32
+    [user_id] => 29
+    [username] => かんばら
+    [user_icon] => 
+    [situation_name] => 物・雑貨
+    [lens_name] => XF56mmF1.2 R
+    [film_name] => PROVIA／スタンダード
+)
+
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：お気に入り情報があるかチェック
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：ユーザーID：48
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：写真ID：94
+[02-Jun-2021 02:53:06 Asia/Tokyo] デバッグ：お気に入りではありません。
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：写真詳細ページ
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：セッションID：t940ebujjnejm1gvpce7sge6dp
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569980
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569989
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573580
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：p_idのん:94
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：写真情報を取得します
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：写真ID：94
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：結合したdataの中身：Array
+(
+    [:p_id] => 94
+)
+
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：結合したstmtの中身：PDOStatement Object
+(
+    [queryString] => SELECT p.id as post_id, p.pic, p.title, p.comment, p.create_at, p.update_at, u.id as user_id, u.username,
+        u.pic as user_icon, s.name as situation_name, l.name as lens_name, f.name as film_name
+        FROM posts as p
+        LEFT JOIN
+        users as u
+        ON
+        p.user_id = u.id
+        LEFT JOIN
+        situations as s
+        ON
+        p.situation_id = s.id
+        LEFT JOIN
+        lenses as l
+        ON
+        p.lens_id = l.id
+        LEFT JOIN
+        films as f
+        ON
+        p.film_id = f.id
+        WHERE p.id = :p_id AND p.delete_flg = 0 AND u.delete_flg = 0
+)
+
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：ビューデータ：Array
+(
+    [post_id] => 94
+    [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+    [title] => 富士のカメラは最高ですよーー！！
+    [comment] => 富士のカメラ
+    [create_at] => 2021-02-13 21:02:32
+    [update_at] => 2021-02-13 21:33:32
+    [user_id] => 29
+    [username] => かんばら
+    [user_icon] => 
+    [situation_name] => 物・雑貨
+    [lens_name] => XF56mmF1.2 R
+    [film_name] => PROVIA／スタンダード
+)
+
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：取得したDBデータ($viewDataの中身)：Array
+(
+    [post_id] => 94
+    [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+    [title] => 富士のカメラは最高ですよーー！！
+    [comment] => 富士のカメラ
+    [create_at] => 2021-02-13 21:02:32
+    [update_at] => 2021-02-13 21:33:32
+    [user_id] => 29
+    [username] => かんばら
+    [user_icon] => 
+    [situation_name] => 物・雑貨
+    [lens_name] => XF56mmF1.2 R
+    [film_name] => PROVIA／スタンダード
+)
+
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：コメントするがクリックされました
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/photoDetail.php
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：$resultの中身:Array
+(
+    [id] => 12
+)
+
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：既に掲示板があります。
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：お気に入り情報があるかチェック
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：ユーザーID：48
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：写真ID：94
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：お気に入りではありません。
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：掲示板ページ
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：セッションID：7egrh0h476r6q62i8pi6bif85o
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569989
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569989
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573589
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：ここに入ればok
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：ビュー：Array
+(
+    [0] => Array
+        (
+            [comment_user] => 29
+            [send_date] => 2021-02-24 23:27:32
+            [msg] => あああ
+            [bord_id] => 12
+            [post_id] => 94
+            [post_user] => 29
+            [create_at] => 2021-02-23 20:53:23
+            [username] => かんばら
+            [pic] => 
+        )
+
+)
+
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：写真情報を取得します
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：写真ID：94
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：結合したdataの中身：Array
+(
+    [:p_id] => 94
+)
+
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：結合したstmtの中身：PDOStatement Object
+(
+    [queryString] => SELECT p.id as post_id, p.pic, p.title, p.comment, p.create_at, p.update_at, u.id as user_id, u.username,
+        u.pic as user_icon, s.name as situation_name, l.name as lens_name, f.name as film_name
+        FROM posts as p
+        LEFT JOIN
+        users as u
+        ON
+        p.user_id = u.id
+        LEFT JOIN
+        situations as s
+        ON
+        p.situation_id = s.id
+        LEFT JOIN
+        lenses as l
+        ON
+        p.lens_id = l.id
+        LEFT JOIN
+        films as f
+        ON
+        p.film_id = f.id
+        WHERE p.id = :p_id AND p.delete_flg = 0 AND u.delete_flg = 0
+)
+
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：$photoInfoの中身：Array
+(
+    [post_id] => 94
+    [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+    [title] => 富士のカメラは最高ですよーー！！
+    [comment] => 富士のカメラ
+    [create_at] => 2021-02-13 21:02:32
+    [update_at] => 2021-02-13 21:33:32
+    [user_id] => 29
+    [username] => かんばら
+    [user_icon] => 
+    [situation_name] => 物・雑貨
+    [lens_name] => XF56mmF1.2 R
+    [film_name] => PROVIA／スタンダード
+)
+
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：ユーザー情報取得成功
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：$postUserInfoの中身：Array
+(
+    [id] => 29
+    [username] => かんばら
+    [email] => garcons0629@gmail.com
+    [password] => $2y$10$Gxw8yR6PL2wsgIyhNSprauk/UBW5l7hzvRTLT3cGrm3fu/WT5DBsW
+    [sex] => 1
+    [age] => 28
+    [prefecture_id] => 1
+    [tel] => 
+    [pic] => 
+    [login_time] => 2021-01-28 22:01:34
+    [create_at] => 2021-01-28 22:01:34
+    [update_at] => 2021-02-06 15:20:32
+    [delete_flg] => 0
+)
+
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：commentUserId中身：Array
+(
+    [0] => 29
+)
+
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：otherUserIdの中身：Array
+(
+)
+
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：$otherUserInfoの中身：Array
+(
+)
+
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：viewdataコメント：29
+[02-Jun-2021 02:53:09 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：写真詳細ページ
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：セッションID：7beo9h76qor4vonn3pgu1n0tcn
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569989
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569992
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573589
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：p_idのん:94
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：写真情報を取得します
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：写真ID：94
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：結合したdataの中身：Array
+(
+    [:p_id] => 94
+)
+
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：結合したstmtの中身：PDOStatement Object
+(
+    [queryString] => SELECT p.id as post_id, p.pic, p.title, p.comment, p.create_at, p.update_at, u.id as user_id, u.username,
+        u.pic as user_icon, s.name as situation_name, l.name as lens_name, f.name as film_name
+        FROM posts as p
+        LEFT JOIN
+        users as u
+        ON
+        p.user_id = u.id
+        LEFT JOIN
+        situations as s
+        ON
+        p.situation_id = s.id
+        LEFT JOIN
+        lenses as l
+        ON
+        p.lens_id = l.id
+        LEFT JOIN
+        films as f
+        ON
+        p.film_id = f.id
+        WHERE p.id = :p_id AND p.delete_flg = 0 AND u.delete_flg = 0
+)
+
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：ビューデータ：Array
+(
+    [post_id] => 94
+    [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+    [title] => 富士のカメラは最高ですよーー！！
+    [comment] => 富士のカメラ
+    [create_at] => 2021-02-13 21:02:32
+    [update_at] => 2021-02-13 21:33:32
+    [user_id] => 29
+    [username] => かんばら
+    [user_icon] => 
+    [situation_name] => 物・雑貨
+    [lens_name] => XF56mmF1.2 R
+    [film_name] => PROVIA／スタンダード
+)
+
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：取得したDBデータ($viewDataの中身)：Array
+(
+    [post_id] => 94
+    [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+    [title] => 富士のカメラは最高ですよーー！！
+    [comment] => 富士のカメラ
+    [create_at] => 2021-02-13 21:02:32
+    [update_at] => 2021-02-13 21:33:32
+    [user_id] => 29
+    [username] => かんばら
+    [user_icon] => 
+    [situation_name] => 物・雑貨
+    [lens_name] => XF56mmF1.2 R
+    [film_name] => PROVIA／スタンダード
+)
+
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：お気に入り情報があるかチェック
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：ユーザーID：48
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：写真ID：94
+[02-Jun-2021 02:53:12 Asia/Tokyo] デバッグ：お気に入りではありません。
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：トップページ
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：debugLogStartはじまり
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>画面表示処理開始
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：セッションID：qak15k1makdbr1oso12631bie1
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1622569989
+    [login_limit] => 3600
+    [user_id] => 48
+)
+
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：現在日時タイムスタンプ：1622569993
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：ログイン期限日時タイムスタンプ：1622573589
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：ログイン有効期限を更新します。
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：今のディレクトリ：/fujifilm_sns/top.php
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：$_GETの中身：Array
+(
+)
+
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：カレントpege1
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：カレント0
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：写真情報を取得します。
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：sqlの中身0：SELECT id FROM posts
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：whereの中身0：
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：whereの中身0.5：
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：whereの中身1：
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：sqlの中身1：SELECT id FROM posts
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：トータル件数：118
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：トータルページ数：4
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：sqlの中身2：SELECT * FROM posts
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：whereの中身2：
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：whereの中身2.5：
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：whereの中身3：
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：sqlの中身3：SELECT * FROM posts
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：sqlの中身4：SELECT * FROM posts LIMIT 30 OFFSET 0
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：実行したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM posts LIMIT 30 OFFSET 0
+)
+
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：全データ数：118
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：トータルで必要なページ数：4
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：写真データ：Array
+(
+    [0] => Array
+        (
+            [id] => 94
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [1] => Array
+        (
+            [id] => 95
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [2] => Array
+        (
+            [id] => 96
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [3] => Array
+        (
+            [id] => 97
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [4] => Array
+        (
+            [id] => 98
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [5] => Array
+        (
+            [id] => 99
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [6] => Array
+        (
+            [id] => 100
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [7] => Array
+        (
+            [id] => 101
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [8] => Array
+        (
+            [id] => 102
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [9] => Array
+        (
+            [id] => 103
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [10] => Array
+        (
+            [id] => 104
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [11] => Array
+        (
+            [id] => 105
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [12] => Array
+        (
+            [id] => 106
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [13] => Array
+        (
+            [id] => 107
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [14] => Array
+        (
+            [id] => 108
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [15] => Array
+        (
+            [id] => 109
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [16] => Array
+        (
+            [id] => 110
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [17] => Array
+        (
+            [id] => 111
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [18] => Array
+        (
+            [id] => 112
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [19] => Array
+        (
+            [id] => 113
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [20] => Array
+        (
+            [id] => 114
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [21] => Array
+        (
+            [id] => 115
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [22] => Array
+        (
+            [id] => 116
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [23] => Array
+        (
+            [id] => 117
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [24] => Array
+        (
+            [id] => 118
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [25] => Array
+        (
+            [id] => 119
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [26] => Array
+        (
+            [id] => 120
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [27] => Array
+        (
+            [id] => 121
+            [user_id] => 29
+            [pic] => uploads/fe254063b8d5c3b4779121db89cc5d45f57ab5cd.jpeg
+            [title] => 富士のカメラは最高ですよーー！！
+            [lens_id] => 11
+            [situation_id] => 8
+            [film_id] => 1
+            [comment] => 富士のカメラ
+            [create_at] => 2021-02-13 21:02:32
+            [update_at] => 2021-02-13 21:33:32
+            [delete_flg] => 0
+        )
+
+    [28] => Array
+        (
+            [id] => 122
+            [user_id] => 29
+            [pic] => uploads/6f3099d100d63d62e5e985a1425e23bef6a1c4b5.jpeg
+            [title] => ハーフバースデー
+            [lens_id] => 9
+            [situation_id] => 4
+            [film_id] => 3
+            [comment] => 春瑠ちゃんのハーフバースデーでした。
+            [create_at] => 2021-02-13 21:02:29
+            [update_at] => 2021-02-13 21:35:29
+            [delete_flg] => 0
+        )
+
+    [29] => Array
+        (
+            [id] => 123
+            [user_id] => 29
+            [pic] => uploads/6f3099d100d63d62e5e985a1425e23bef6a1c4b5.jpeg
+            [title] => ハーフバースデー
+            [lens_id] => 9
+            [situation_id] => 4
+            [film_id] => 3
+            [comment] => 春瑠ちゃんのハーフバースデーでした。
+            [create_at] => 2021-02-13 21:02:29
+            [update_at] => 2021-02-13 21:35:29
+            [delete_flg] => 0
+        )
+
+)
+
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：レンズ情報取得クエリ成功
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：シチュエーション情報取得クエリ成功
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：フィルムシミュレーション情報取得クエリ成功
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：現在ページ1：1
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：dbformdata:
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：現在ページ2：1
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：現在ページ7：1
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：現在ページ1
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：最小ページ1
+[02-Jun-2021 02:53:13 Asia/Tokyo] デバッグ：最大ページ4

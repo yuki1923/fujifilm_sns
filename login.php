@@ -77,42 +77,30 @@ debug('画面表示処理終了');
     <title>topページ</title>
 </head>
 
-<body>
-    <!-- メインヘッダー -->
-    <header class="main-header">
-        <div class="outer-g-nav">
-            <h1 class="logo"><a href="index.php">logo</a></h1>
-            <nav class="g-nav">
-                <ul class="g-nav-list">
-                    <li class="g-nav-item"><a href="signup.php">新規登録</a></li>
-                    <li class="g-nav-item"><a href="login.php">ログイン</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<?php include_once 'header.php'; ?>
 
-    <div class="container">
-        <div class="contant border-outer">
-            <h1 class="page-title">ログイン</h1>
-            <form method="post" class="form">
-                <div class="area-msg">
-                    <span class="err-msg"><?php if (!empty($err_msg['email'])) echo $err_msg['email']; ?></span>
-                    <input type="text" class="input" name="email" placeholder="メールアドレス" value="<?php if (!empty($err_msg)) echo $email; ?>">
-                </div>
-                <div class="area-msg">
-                    <span class="err-msg"><?php if (!empty($err_msg)) echo $err_msg['pass']; ?></span>
-                    <input type="password" class="input" name="pass" placeholder="パスワード">
-                </div>
-                <p class="submit"><input type="submit" value="ログイン" class="login-submit"></p>
-                <p class="checkbox"><input type="checkbox" name="pass_save">次回ログインを省略する</p>
-                <p><a href="passRemindSend.php">&lt &lt パスワードを忘れた方はコチラ</a></p>
-            </form>
-        </div>
+<div class="container">
+    <div class="contant border-outer">
+        <h1 class="page-title">ログイン</h1>
+        <form method="post" class="form">
+            <div class="area-msg">
+                <span class="err-msg"><?php if (!empty($err_msg['email'])) echo $err_msg['email']; ?></span>
+                <input type="text" class="input" name="email" placeholder="メールアドレス" value="<?php if (!empty($err_msg)) echo $email; ?>">
+            </div>
+            <div class="area-msg">
+                <span class="err-msg"><?php if (!empty($err_msg)) echo $err_msg['pass']; ?></span>
+                <input type="password" class="input" name="pass" placeholder="パスワード">
+            </div>
+            <p class="submit"><input type="submit" value="ログイン" class="login-submit"></p>
+            <p class="checkbox"><input type="checkbox" name="pass_save">次回ログインを省略する</p>
+            <p><a href="passRemindSend.php">&lt &lt パスワードを忘れた方はコチラ</a></p>
+        </form>
     </div>
+</div>
 
-    <footer class="footer">
-        Copyright Fujiの病 .All Rights Reserved.
-    </footer>
+<footer class="footer">
+    Copyright Fujiの病 .All Rights Reserved.
+</footer>
 </body>
 
 </html>
