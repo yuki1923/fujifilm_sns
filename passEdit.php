@@ -7,22 +7,22 @@ debugLogStart();
 
 require('auth.php');
 $userData = getUser($_SESSION['user_id']);
-debug('userDataの中身：'.print_r($userData,true));
+debug('userDataの中身：' . print_r($userData, true));
 
-if(!empty($_POST)){
+if (!empty($_POST)) {
     //ポストされた値を変数に宣言
     $oldPass = $_POST['old-pass'];
     $newPass = $_POST['new-pass'];
     $reNewPass = $_POST['re-new-pass'];
 
     //バリデーションチェック
-    validRequired($oldPass,'oldPass');
-    validRequired($newPass,'newPass');
-    validRequired($newPass,$reNewPass,'reNewPass');
-    if(empty($err_msg)){
+    validRequired($oldPass, 'oldPass');
+    validRequired($newPass, 'newPass');
+    validRequired($newPass, $reNewPass, 'reNewPass');
+    if (empty($err_msg)) {
         debug('入力チェックoK');
-        validPass($oldPass,'oldPass');
-        if(!password_verify($oldPass,$userData['password'])){
+        validPass($oldPass, 'oldPass');
+        if (!password_verify($oldPass, $userData['password'])) {
             $err_msg['oldPass'] = ERR_MSG11;
         }
         // try{
@@ -37,7 +37,7 @@ if(!empty($_POST)){
         //         if(!password_verify($oldPass,$result['password']) ){
         //             debug('登録されているパスワードと違う');
         //             $err_msg['oldPass'] = ERR_MSG11;
-        //         } 
+        //         }
         //     }else{
         //         debug('クエリ失敗');
         //         $err_msg['common'] = ERR_MSG06;
@@ -49,26 +49,26 @@ if(!empty($_POST)){
 
 
         debug('古いパスのバリデーションok');
-        validPass($newPass,'newPass');
+        validPass($newPass, 'newPass');
         debug('新しいパスのバリデーションok');
-        validPassDup($oldPass,$newPass,'newPass');
+        validPassDup($oldPass, $newPass, 'newPass');
         debug('古いパスと新しいパスが同値ではないのでOK');
-        validMatch($newPass,$reNewPass,'reNewPass');
+        validMatch($newPass, $reNewPass, 'reNewPass');
         debug('再入力と同じでOK');
-    
+
         //エラーなければデータベース更新
-        if( empty($err_msg) ){
+        if (empty($err_msg)) {
             debug('バリデーションチェックok');
             //dbに接続
-            try{
+            try {
                 $dbh = dbConnect();
                 $sql = 'UPDATE users SET password = :newPass WHERE id = :u_id';
-                $data = array(':newPass' => password_hash($newPass,PASSWORD_DEFAULT), 'u_id' => $_SESSION['user_id']);
-                $stmt = queryPost($dbh,$sql,$data);
+                $data = array(':newPass' => password_hash($newPass, PASSWORD_DEFAULT), 'u_id' => $_SESSION['user_id']);
+                $stmt = queryPost($dbh, $sql, $data);
                 debug('パスワード変更完了');
-                if($stmt){
+                if ($stmt) {
                     debug('クエリ成功、パスワード変更完了');
-                    
+
                     $username = $userData['username'];
                     $from = 'kygarcons0629@gmail.com';
                     $to = $userData['email'];
@@ -84,15 +84,15 @@ URL: https://fujinoyamai.com/
 E-mail: info@fujinoyamai.com
 ////////////////////////////////////
 EOT;
-                //メール送信プログラム実行
-                sendMail($from,$to,$subject,$comment,);
-                //マイページに遷移
-                header('Location:mypage.php');
-                }else{
+                    //メール送信プログラム実行
+                    sendMail($from, $to, $subject, $comment,);
+                    //マイページに遷移
+                    header('Location:mypage.php');
+                } else {
                     debug('クエリ失敗');
                     $err_msg['common'] = ERR_MSG06;
                 }
-            }catch(Exception $e){
+            } catch (Exception $e) {
                 error_log($e->getMessage());
                 $err_msg['common'] = ERR_MSG06;
             }
@@ -124,63 +124,36 @@ EOT;
     <title>パスワード変更ページ</title>
 </head>
 
-<body>
-    <!-- メインヘッダー -->
-    <header class="main-header">
-        <div class="outer-g-nav">
-            <h1 class="logo"><img src="" alt="">logo</h1>
-            <nav class="g-nav">
-                <ul class="g-nav-list">
-                    <li class="g-nav-item">トップページ</li>
-                    <li class="g-nav-item"><a href="mypage.php">マイページ</a></li>
-                    <li class="g-nav-item"><a href="logout.php">ログアウト</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <!-- サブヘッダー -->
-    <header class="sub-header">
-        <div class="site-width outer-sub-header">
-            <ul class="action-nav-list-left">
-                <li class="action-nav-btn">写真を投稿する</li>
-            </ul>
-            <ul class="action-nav-list-right">
-                <li class="action-nav-btn">プロフィール編集</li>
-                <li class="action-nav-btn">パスワード変更</li>
-                <a href="withdraw.php">
-                    <li class="action-nav-btn">退会</li>
-                </a>
-            </ul>
-        </div>
-    </header>
-    <main>
-        <div class="site-width passEdit">
-            <h2 class="section-title">パスワード変更</h2>
-            <form method="post" class="form">
-                <span class="err-msg"><?php if( !empty($err_msg['common']) ) echo $err_msg['common']; ?></span>
-                <div class="area-msg">
-                    <span class="err-msg"><?php echo getErrMsg('oldPass') ?></span>
-                    <label for="old-pass" class="prof-label">古いパスワード</label>
-                    <input type="password" class="profEdit-input" id="old-pass" name="old-pass" value="<?php if( !empty($err_msg) ) echo $oldPass; ?>">
-                </div>
-                <div class="area-msg">
-                    <span class="err-msg"><?php echo getErrMsg('newPass') ?></span>
-                    <label for="new-pass" class="prof-label">新しいパスワード</label>
-                    <input type="password" class="profEdit-input" id="new-pass" name="new-pass" value="<?php if( !empty($err_msg) ) echo $newPass; ?>">
-                </div>
-                <div class="area-msg">
-                    <span class="err-msg"><?php echo getErrMsg('Pass') ?></span>
-                    <label for="re-new-pass" class="prof-label">新しいパスワード（再入力）</label>
-                    <input type="password" class="profEdit-input" id="re-new-pass" name="re-new-pass">
-                </div>
-                <input type="submit" value="変更する" class="profEdit-submit">
-            </form>
-        </div>
-    </main>
-    <!-- フッター -->
-    <footer class="footer">
-        Copyright Fujiの病 .All Rights Reserved.
-    </footer>
+<?php include_once 'header.php'; ?>
+
+<main>
+    <div class="site-width passEdit">
+        <h2 class="section-title">パスワード変更</h2>
+        <form method="post" class="form">
+            <span class="err-msg"><?php if (!empty($err_msg['common'])) echo $err_msg['common']; ?></span>
+            <div class="area-msg">
+                <span class="err-msg"><?php echo getErrMsg('oldPass') ?></span>
+                <label for="old-pass" class="prof-label">古いパスワード</label>
+                <input type="password" class="profEdit-input" id="old-pass" name="old-pass" value="<?php if (!empty($err_msg)) echo $oldPass; ?>">
+            </div>
+            <div class="area-msg">
+                <span class="err-msg"><?php echo getErrMsg('newPass') ?></span>
+                <label for="new-pass" class="prof-label">新しいパスワード</label>
+                <input type="password" class="profEdit-input" id="new-pass" name="new-pass" value="<?php if (!empty($err_msg)) echo $newPass; ?>">
+            </div>
+            <div class="area-msg">
+                <span class="err-msg"><?php echo getErrMsg('Pass') ?></span>
+                <label for="re-new-pass" class="prof-label">新しいパスワード（再入力）</label>
+                <input type="password" class="profEdit-input" id="re-new-pass" name="re-new-pass">
+            </div>
+            <input type="submit" value="変更する" class="profEdit-submit">
+        </form>
+    </div>
+</main>
+<!-- フッター -->
+<footer class="footer">
+    Copyright Fujiの病 .All Rights Reserved.
+</footer>
 </body>
 
 </html>

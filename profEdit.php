@@ -84,40 +84,15 @@ if(!empty($_POST)){
     <link rel="stylesheet" href="style.css">
     <title>プロフィール編集</title>
 </head>
-<body>
-    <!-- メインヘッダー -->
-    <header class="main-header">
-        <div class="outer-g-nav">
-            <h1 class="logo"><img src="" alt="">logo</h1>
-            <nav class="g-nav">
-                <ul class="g-nav-list">
-                    <li class="g-nav-item">トップページ</li>
-                    <li class="g-nav-item"><a href="mypage.php">マイページ</a></li>
-                    <li class="g-nav-item"><a href="logout.php">ログアウト</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-        <!-- サブヘッダー -->
-    <header class="sub-header">
-        <div class="site-width outer-sub-header">
-            <ul class="action-nav-list-left">
-                <li class="action-nav-btn">写真を投稿する</li>
-            </ul>
-            <ul class="action-nav-list-right">
-                <li class="action-nav-btn">プロフィール編集</li>
-                <li class="action-nav-btn">パスワード変更</li>
-                <a href="withdraw.php"><li class="action-nav-btn">退会</li></a>
-            </ul>
-        </div>
-    </header>
+<?php include_once 'header.php'; ?>
+
     <!-- メインコンテンツ -->
     <main>
         <div class="site-width prof-edit">
             <h2 class="section-title">プロフィール編集</h2>
             <form action="" class="prof-form" method="post">
                 <div class="prof-img">プロフ写真</div>
-                
+
                 <div class="area-msg">
                     <span class="err-msg"><?php　if(!empty($err_msg['common'])) echo $err_msg['common']; ?></span>
                     <span class="err-msg"><?php if(!empty($err_msg['name'])) echo $err_msg['name']; ?></span>
