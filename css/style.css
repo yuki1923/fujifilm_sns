@@ -1,0 +1,19 @@
+.header {
+  background-color: color(sub2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  font-size: 40px;
+}
+
+.cnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+}
+.footer {
+  text-align: center;
+}

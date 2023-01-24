@@ -1,0 +1,938 @@
+html{
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+body{
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+    color: #333;
+}outer-g-nav
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.logo{
+
+}
+.imgg{
+    width: 400px;
+
+}
+.nav{
+    background-color: pink;
+}
+.nav-menu{
+    display: flex;
+}
+
+.nav-menu__list{
+    margin-right: 50px;
+    padding: 20px;
+}
+
+.nav-menu__link{
+
+}
+
+.container{
+    width: 1000px;
+    margin: 50px auto 0;
+}
+
+.content{
+    margin-bottom: 40px;
+}
+
+.border-outer{
+    border: 1px #111 solid;
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 40px 10px 40px;
+}
+
+.copy{
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+}
+
+.copy-title{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.copy-text{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.top-bgImg{
+    background-image: url('images/top_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width:100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.footer{
+    text-align: center;
+    height: 20px;
+    color: #fff;
+    background: #111;
+}
+
+/* 新規登録ページ */
+.page-title{
+    font-size: 28px;
+    text-align: center;
+}
+.form{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.input{
+    width: 100%;
+    padding: 15px;
+    border: #111 solid 1px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.submit{
+    text-align: center;
+}
+.err-msg{
+    color: red;
+    font-size: 18px;
+    display: block;
+
+}
+
+.signup-submit{
+    border: #111 solid 1px;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 18px;
+    width: 100%;
+    background: #eee
+}
+
+.login-submit{
+    margin-bottom: 30px;
+    border: #111 solid 1px;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 18px;
+    width: 100%;
+    background: #eee;
+}
+
+.checkbox{
+    margin-bottom: 20px;
+}
+
+.return-btn{
+    width: 450px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* ログイントップページ */
+
+.topPage-container{
+    width: 980px;
+    margin: 0 auto;
+}
+.search-result{
+    display: flex;
+    justify-content: space-between;
+    background-color: #009e6f;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.search-form{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cdd6dd;
+    padding: 10px 10px 20px 10px;
+    margin-bottom: 20px;
+}
+.search-block{
+    width: 20%;
+    text-align: center;
+}
+.search-title{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sort{
+    border: 1px solid #fff;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.fa-times{
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.search-btn{
+    width: 10%;
+    text-align: center;
+
+}
+
+.blank{
+    display: block;
+    height: 14px;
+}
+
+.search-submit{
+    border: 1px solid #fff;
+    border-radius: 3px;
+    width: 100%;
+    padding: 10px;
+}
+
+.main-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* 写真が投稿されていない場合 */
+.no-post{
+    text-align: center;
+    font-size: 24px;
+}
+.no-section{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.post-area{
+    height: 400px;
+    overflow-x: scroll;
+    border: 2px solid #dadada;
+    padding: 15px 15px;
+    margin-bottom: 80px;
+}
+
+.fav-area{
+    height: 400px;
+    overflow-x: scroll;
+    border: 2px solid #dadada;
+    padding: 15px 15px;
+    margin-bottom: 80px;
+}
+.photo-panel-wrap{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 60px;
+}
+.photo-panel-container{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+    border: 1px solid#dadada;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+.photo-panel img{
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    object-fit: contain;
+}
+.photo-title{
+    color: #333;
+    text-align: center;
+}
+
+/* 写真登録ページ */
+
+.main{
+    width: 100%;
+    margin: 0 auto;
+}
+.regist-form{
+    margin: 0 auto;
+}
+.regist-photo-list{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    border: 1px solid #dadada;
+}
+
+.regist-textare{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #dadada;
+}
+.regist-input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #dadada;
+    text-align: center;
+    line-height: 50px;
+    background-color: #333;
+    color: #fff;
+}
+.regist-input input{
+    width: 100%;
+}
+
+.regist-photo-title{
+    margin-bottom: 40px;
+}
+.tag{
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: pink;
+    border-radius: 1px;
+}
+
+.text-count{
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.mypage-outer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-section{
+    width: 980px;
+}
+
+.sidebar{
+    width: 300px;
+    height: 500px;
+    padding: 50px;
+    background-color: #DDDDDD;
+}
+
+.sidebar-item{
+    text-align: center;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 10px 5px;
+    font-size: 20px;
+    border: 1px solid #111;
+    background-color: #fff;
+}
+
+.mypage-title{
+    text-align: center;
+    font-size: 36px;
+    padding: 30px;
+}
+
+.profEdit-outer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.profEdit-main{
+    width: 980px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+li{
+    list-style: none;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.site-width{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* メインヘッダー */
+.main-header{
+    width: 100%;
+    background-color: #2d2d2d;
+    color: #fff;
+}
+
+.outer-g-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 80px;
+    padding-left: 80px;
+    height: 80px;
+}
+
+
+.g-nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.g-nav-item{
+    margin-right: 24px;
+}
+
+.g-nav-item:last-child{
+    margin-right: 0;
+}
+/* メインヘッダーおわり */
+
+/* サブヘッダー */
+.sub-header{
+    margin-bottom: 80px;
+    background-color: #cdd6dd;
+}
+
+.outer-sub-header{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-nav-list-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-nav-list-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-nav-btn{
+    margin-right: 24px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #009e6f;
+    padding: 8px 8px;
+}
+
+.action-nav-btn:last-child{
+    margin-right: 0;
+}
+
+/* サブヘッダーおわり */
+
+/* プロフィール編集メイン */
+
+.prof-edit{
+    width: 1080px;
+}
+
+.section-title{
+    font-size: 32px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.prof-form{
+    margin-bottom: 120px;
+}
+
+.prof-img{
+    width: 164px;
+    height: 164px;
+    border-radius: 50%;
+    background-color: #cdd6dd;
+    margin: 0 auto 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.prof-input-file{
+    width: 164px;
+    height: 164px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 82px;
+}
+
+.prof-prev-img{
+    width: 164px;
+    height: 164px;
+    object-fit: cover;
+    border-radius: 82px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.prof-form-list{
+    margin: 0 auto 24px;
+    width: 50%;
+}
+
+.area-msg{
+    margin: 0 auto 24px;
+}
+
+.prof-label{
+    font-size: 16px;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.profEdit-input{
+    height: 30px;
+    width: 100%;
+    border: 1px solid #111;
+    border-radius: 2px;
+}
+.profEdit-submit{
+    display: block;
+    width: 50%;
+    height: 30px;
+    margin: 0 auto;
+    background-color:  #009e6f;
+    text-align: center;
+    border-radius: 3px;
+}
+
+
+
+/* プロフィール編集メインおわり */
+
+/* フッター */
+.footer{
+    height: 80px;
+    text-align: center;
+    background-color: #2d2d2d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* フッター終わり */
+
+/* 写真投稿ページ */
+/* .img-outer{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto 64px;
+}
+
+.border{
+    border: 1px solid#dadada;
+}
+.img-wrap{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.img-wrap img{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    object-fit: contain;
+} */
+
+/* .img-outer{
+    max-width: 1080px;
+    height: 500px;
+    margin-bottom: 64px;
+    line-height: 500px;
+    text-align: center;
+    border: dashed 3px #dadada;
+}
+
+.img-outer img{
+    height: auto;
+    object-fit: contain;
+}
+.input-file{
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+} */
+
+/* 投稿画像 */
+.img-outer{
+    width: 720px;
+    max-width: 1080px;
+    height: 540px;
+    margin: 0 auto 64px;
+    border: dashed 3px #dadada;
+    position: relative;
+    text-align: center;
+    line-height: 540px;
+}
+
+.input-file{
+    width: 100%;
+    height: 540px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.prev-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* ページネーション */
+.page-nation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 64px;
+}
+
+.page-list{
+    background-color:#dadada;
+    color: #333;
+    padding: 10px 10px;
+    margin-right: 10px;
+}
+
+.page-list:last-child{
+    margin-right: 0;
+}
+
+.active-color{
+    color: #fff;
+   background-color: #279af1;
+}
+
+.active{
+    background-color: #279af1;
+}
+
+/* 商品詳細ページ */
+
+.iner-width{
+    width: 720px;
+    margin: 0 auto 80px;
+}
+
+.photo-detail-box{
+    width: 720px;
+    /* margin-bottom: 30px; */
+    margin: 0 auto 30px auto;
+    padding-bottom: 30px;
+    border-bottom: 2px dashed #dadada;
+}
+
+.mb80{
+    margin-bottom: 80px;
+}
+
+.badge{
+    font-size: 14px;
+    color: #fff;
+    background-color: #279af1;
+    padding: 5px 8px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.posted-area{
+}
+
+.img-detail-outer{
+    border: none;
+    margin-bottom: 24px;
+}
+
+/* いいねボタン */
+/* .iine{
+    border: 1px solid #dadada;
+    padding: 6px 8px;
+    border-radius: 25px;
+    margin-bottom: 32px;
+    display: block;
+    background-color: #dadada;
+}
+.iine i{
+    font-size: 16px;
+    color: #fff;
+    margin-right: 3px;
+
+}
+
+.iine .bgRed{
+    color: red;
+} */
+
+.fa-heart{
+    width: 90px;
+    font-size: 16px;
+    padding: 5px 3px;
+    margin-bottom: 64px;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px#dadada solid;
+    background-color: #dadada;
+    color: #fff;
+    cursor: pointer;
+}
+
+.heart-text{
+    color: #333;
+    margin-left: 3px;
+}
+
+.active{
+    color: pink;
+}
+
+
+.comment-btn{
+    background-color: #009e6f;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.edit-btn{
+    background-color: #279af1;
+    color: #fff;
+}
+
+/* コメントボード */
+
+.bord{
+    padding: 40px 24px;
+    height: 800px;
+    border: 1px solid #dadada;
+    margin-bottom: 40px;
+    overflow-x: scroll;
+
+}
+
+.talk {
+    margin-bottom: 40px;
+    }
+
+    .talk figure img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #9ce191;
+    border-radius: 50%;
+    margin: 0;
+    }
+
+    /* 画像の下のテキスト */
+    .talk-imgname {
+    padding: 5px 0 0;
+    font-size: 10px;
+    text-align: center;
+    }
+
+    p.talk-text {
+    margin: 0 0 8px;
+    }
+
+    p.talk-text:last-child {
+    margin-bottom: 0px;
+    }
+
+    /* 回り込み解除 */
+    .talk:after,.talk:before {
+    clear: both;
+    content: "";
+    display: block;
+    }
+
+    /* ----- 左の場合 ----- */
+
+    /* 左画像 */
+    .talk-Limg {
+    margin-left: 4px;
+    margin-top: -1px;
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    }
+
+    /* 左からの吹き出しテキスト */
+    .talk-Ltxt {
+    color: #444;
+    position: relative;
+    margin-left: 100px;
+    padding: 1.2em;
+    border: 3px solid #9ce191;
+    background-color: #ebffe7;
+    border-radius: 5px;
+    }
+
+    /* 左の三角形を作る */
+    .talk-Ltxt:before {
+    position: absolute;
+    content: '';
+    border: 10px solid transparent;
+    border-right: 10px solid #9ce191;
+    top: 15px;
+    left: -20px;
+    }
+
+    .talk-Ltxt:after {
+    position: absolute;
+    content: '';
+    border: 10px solid transparent;
+    border-right: 10px solid #ebffe7;
+    top: 15px;
+    left: -16px;
+    }
+
+    .talk {
+        margin-bottom: 40px;
+        }
+
+        .talk figure img {
+        width: 100%;
+        height: 100%;
+        border: 2px solid #9ce191;
+        border-radius: 50%;
+        margin: 0;
+        }
+
+        /* 画像の下のテキスト */
+        .talk-imgname {
+        padding: 5px 0 0;
+        font-size: 10px;
+        text-align: center;
+        }
+
+        p.talk-text {
+        margin: 0 0 8px;
+        }
+
+        p.talk-text:last-child {
+        margin-bottom: 0px;
+        }
+
+        /* 回り込み解除 */
+        .talk:after,.talk:before {
+        clear: both;
+        content: "";
+        display: block;
+        }
+
+        /* ----- 右の場合 ----- */
+
+        /* 右画像 */
+        .talk-Rimg {
+        margin-right: 4px;
+        margin-top: -1px;
+        float: right;
+        width: 60px;
+        height: 60px;
+        }
+
+        /* 右からの吹き出しテキスト */
+        .talk-Rtxt {
+        position: relative;
+        margin-right: 100px;
+        padding: 1.2em;
+        border: 3px solid #9ce191;
+        background-color: #fff;
+        border-radius: 5px;
+        }
+
+        /* 右の三角形を作る */
+        .talk-Rtxt:before {
+        position: absolute;
+        content: '';
+        border: 10px solid transparent;
+        border-left: 10px solid #9ce191;
+        top: 15px;
+        right: -23px;
+        }
+
+        .talk-Rtxt:after {
+        position: absolute;
+        content: '';
+        border: 10px solid transparent;
+        border-left: 10px solid #fff;
+        top: 15px;
+        right: -19px;
+        }
+
+
+        .comment-photo{
+            margin-bottom: 40px;
+        }
