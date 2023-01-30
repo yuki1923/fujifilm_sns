@@ -60,7 +60,7 @@ define('ERR_MSG16', '該当する写真がありませんでした。');
 
 function dbConnect()
 {
-    $dsn = $_ENV['DB_CONNECTION'] . ':dbname=' . $_ENV['DB_NAME'] . ';host=' . $_ENV['DB_HOST'] . 'charset=utf8';
+    $dsn = $_ENV['DB_CONNECTION'] . ':dbname=' . $_ENV['DB_DATABASE'] . ';host=' . $_ENV['DB_HOST'] . ';charset=utf8';
     $user = $_ENV['DB_USERNAME'];
     $password = $_ENV['DB_PASSWORD'];
     $opptions = array(
