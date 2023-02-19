@@ -400,7 +400,8 @@ function uploadImg($file, $key)
                     throw new RuntimeException('そのほかのエラーが発生しました。');
             }
             $type = @exif_imagetype($file['tmp_name']);
-            if (!in_array($type, [IMAGETYPE_JPEG, IMAGETYPE_GIF, IMAGETYPE_PNG], true)) {
+            debug('typeの中身；' . print_r($type, true));
+            if (!in_array($type, [IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG], true)) {
                 debug('画像ファイルではない');
                 throw new RuntimeException('画像形式が未対応です。');
             }
