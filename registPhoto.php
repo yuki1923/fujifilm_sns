@@ -12,7 +12,7 @@ require('auth.php');
 $p_id = (!empty($_GET['p_id'])) ? $_GET['p_id'] : '';
 //DBから写真情報を取得。p_idがあればユーザーidとp_idを基に写真データを取得する
 $dbFormData = (!empty($p_id)) ? getPhoto($_SESSION['user_id'], $p_id) : '';
-var_dump($dbFormData, true);
+debug('フォームのデータ：', print_r($dbFormData, true));
 //新規か編集か判断するためのフラグを作成 dbFormDataがあれば編集、なければ新規
 $editFlg = (!empty($dbFormData)) ? true : false;
 //それぞれのセレクトボックスの値を取得し表示させるために格納
@@ -137,7 +137,7 @@ include_once 'head.php';
           <option value="0" <?php if (!isset($dbFormData)) echo 'selected'; ?>>選択してください
           </option>
           <?php foreach ($dbSituation as $val) : ?>
-            <option value="<?php echo $val['id']; ?>" <?php if ($dbFormData['situation_id'] === $val['id']) echo 'selected'; ?>>
+            <option value="<?php echo $val['id']; ?>" <?php if (!empty($editFlg) && $dbFormData['situation_id'] === $val['id']) echo 'selected'; ?>>
               <?php echo $val['name']; ?>
             </option>
           <?php endforeach; ?>
@@ -150,7 +150,7 @@ include_once 'head.php';
             選択してください
           </option>
           <?php foreach ($dbLens as $val) : ?>
-            <option value="<?php echo $val['id']; ?>" <?php if ($dbFormData['lens_id'] === $val['id']) echo 'selected'; ?>>
+            <option value="<?php echo $val['id']; ?>" <?php if (!empty($editFlg) && $dbFormData['lens_id'] === $val['id']) echo 'selected'; ?>>
               <?php echo $val['name']; ?>
             </option>
           <?php endforeach; ?>
@@ -161,7 +161,7 @@ include_once 'head.php';
         <select name="film" class="regist-photo-list">
           <option value="0" <?php if (!isset($dbFormData)) echo 'selected'; ?>>選択してください</option>
           <?php foreach ($dbFilm as $val) : ?>
-            <option value="<?php echo $val['id']; ?>" <?php if ($dbFormData['film_id'] === $val['id']) echo 'selected'; ?>>
+            <option value="<?php echo $val['id']; ?>" <?php if (!empty($editFlg) && $dbFormData['film_id'] === $val['id']) echo 'selected'; ?>>
               <?php echo $val['name']; ?>
             </option>
           <?php endforeach; ?>
