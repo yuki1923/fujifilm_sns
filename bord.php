@@ -141,7 +141,7 @@ debug('画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
             <?php if (!empty($val['post_user'] && $val['post_user'] == $val['comment_user'])) : ?>
               <div class="talk">
                 <figure class="talk-Limg">
-                  <img src="" alt="" />
+                  <img src="<?php echo $postUserInfo['pic']; ?>" alt="" />
                   <figcaption class="talk-imgname"><?php echo sanitize($postUserInfo['username']); ?></figcaption>
                 </figure>
                 <div class="talk-Ltxt">
@@ -153,7 +153,7 @@ debug('画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
               <!-- そのほかのユーザーコメント -->
               <div class="talk">
                 <figure class="talk-Rimg">
-                  <img src="" alt="" />
+                  <img src="<?php echo $val['pic']; ?>" alt="" />
                   <figcaption class="talk-imgname"><?php echo sanitize($val['username']); ?></figcaption>
                 </figure>
                 <div class="talk-Rtxt">
